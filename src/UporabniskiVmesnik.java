@@ -98,7 +98,7 @@ public class UporabniskiVmesnik {
                                         break;
                                 }
 
-                                break;
+//                                break;
 
                             case 'e':
 

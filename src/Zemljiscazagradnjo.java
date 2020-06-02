@@ -27,27 +27,27 @@ public class Zemljiscazagradnjo extends Zemljisca {
     }
 
     public static Zemljiscazagradnjo vnesiZemljiscazagradnjo() {
-        Scanner vhod = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Vnos podatkov o novi zemljisci za gradnjo!");
 
         System.out.println("Vnesite lastnika nepremicnine: ");
-        String lastnik = vhod.nextLine();
+        String lastnik = input.nextLine();
 
         System.out.println("Vnesite velikost nepremicnin (cm2): ");
-        int velikostNepremicnin = vhod.nextInt();
+        int velikostNepremicnin = input.nextInt();
 
         System.out.println("Ali gre za prodajo ali najem?: ");
-        String prodajaORoddaja = vhod.nextLine();
+        String prodajaORoddaja = input.nextLine();
 
         System.out.println("Vnesite ceno nepremicnine (v €): ");
-        int cena = vhod.nextInt();
+        int cena = input.nextInt();
 
         System.out.println("Tip zemljisca: ");
-        String tipZemljisca = vhod.nextLine();
+        String tipZemljisca = input.nextLine();
 
         System.out.println("Ali ima dovoljenje za gradnjo?: ");
-        boolean dovoljenje = vhod.nextBoolean();
+        boolean dovoljenje = input.nextBoolean();
 
         Zemljiscazagradnjo novaZemljiscazagradnjo = new Zemljiscazagradnjo(lastnik, velikostNepremicnin, cena, prodajaORoddaja, tipZemljisca, dovoljenje);
 
