@@ -53,40 +53,52 @@ public class UporabniskiVmesnik {
                                 switch (izbira) {
 
                                     case 'q':
-                                        novoPoslovniprostor = Javnaustanova.vnesiJavnaustanova();
+                                        bazanepremicnina.dodajNepremicnino(Javnaustanova.vnesiJavnaustanova());
+
                                         break;
                                     case 'w':
-                                        novoPoslovniprostor = Trgovinskastavba.vnesiTrgovinskastavba();
+                                        bazanepremicnina.dodajNepremicnino(Trgovinskastavba.vnesiTrgovinskastavba());
+
                                         break;
                                     case 'e':
-                                        novoPoslovniprostor = Industrijskestavbe.vnesiIndustrijskestavbe();
+                                        bazanepremicnina.dodajNepremicnino(Industrijskestavbe.vnesiIndustrijskestavbe());
+
                                         break;
                                     default:
                                         System.out.println("Prislo je do napake.");
                                         break;
                                 }
+
+                                break;
+
                             case 'w':
                                 System.out.println("Izaberite vrsto stanovanja za vnos.");
                                 System.out.println("Pritisnite (q) za vnos garsonjere.");
                                 System.out.println("Pritisnite (w) za vnos enosobno.");
                                 System.out.println("Pritisnite (e) za vnos dvosobno.");
-                                Stanovanje novoStanovanje = null;
+                                Stanovanje novoStanovanje;
                                 izbira = input.next().toLowerCase().charAt(0);
 
                                 switch (izbira) {
                                     case 'q':
-                                        novoStanovanje = Garsonjera.vnesiGarsonjera();
+                                        bazanepremicnina.dodajNepremicnino(Garsonjera.vnesiGarsonjera());
+
                                         break;
                                     case 'w':
-                                        novoStanovanje = Enosobno.vnesiEnosobno();
+                                        bazanepremicnina.dodajNepremicnino(Enosobno.vnesiEnosobno());
+
                                         break;
                                     case 'e':
-                                        novoStanovanje = Dvosobno.vnesiDvosobno();
+                                        bazanepremicnina.dodajNepremicnino(Dvosobno.vnesiDvosobno());
+
                                         break;
                                     default:
                                         System.out.println("Prislo je do napake.");
+
                                         break;
                                 }
+
+                                break;
 
                             case 'e':
 
@@ -101,13 +113,16 @@ public class UporabniskiVmesnik {
                                 switch (izbira) {
 
                                     case 'q':
-                                        novoZemljisca = Zemljiscazagradnjo.vnesiZemljiscazagradnjo();
+                                        bazanepremicnina.dodajNepremicnino(Zemljiscazagradnjo.vnesiZemljiscazagradnjo());
+
                                         break;
                                     case 'w':
-                                        novoZemljisca = Gozdnazemljisca.vnesiGozdnazemljisca();
+                                        bazanepremicnina.dodajNepremicnino(Gozdnazemljisca.vnesiGozdnazemljisca());
+
                                         break;
                                     case 'e':
-                                        novoZemljisca = Kmetijskazemljisca.vnesiKmetijskazemljisca();
+                                        bazanepremicnina.dodajNepremicnino(Kmetijskazemljisca.vnesiKmetijskazemljisca());
+
                                         break;
                                     default:
                                         System.out.println("Prislo je do napake.");
@@ -117,31 +132,38 @@ public class UporabniskiVmesnik {
                                 System.out.println("Prislo je do napake.");
                                 break;
                         }
-                        obvestilo = bazanepremicnina.dodajNepremicnino(novaNepremicnina);
-                        if (obvestilo.length() > 0) {
-                            System.out.println(obvestilo);
-                        } else {
-                            System.out.println(novaNepremicnina.toString());
-                        }
+
+
+//                        obvestilo = bazanepremicnina.dodajNepremicnino(novaNepremicnina);
+//                        if (obvestilo.length() > 0) {
+//                            System.out.println(obvestilo);
+//                        } else {
+//                            System.out.println(novaNepremicnina.toString());
+//                        }
                         break;
+
                     case 'd':
                         boolean odstranjen;
                         System.out.println("Odstranitev nepremicnin.");
                         System.out.println("Vnesite lastnika nepremicnin, ki je zelite odstraniti.");
                         String lastni = input.nextLine();
                         odstranjen = bazanepremicnina.remove(lastni);
+
                         if (odstranjen) {
                             System.out.println("Nepremicnina z lastnikom " + lastni.trim() + " uspesno je odstranjen.");
                         } else {
                             System.out.println("Nepremicnina z lastnikom  " + lastni.trim() + " ni na seznamu.");
                         }
+
                         break;
+
                     case 'n':
                         System.out.println("Izpis vseh nepremicnin v evidenci nepremicnin.");
                         System.out.println(bazanepremicnina.toString());
                         break;
 
                     case 's':
+
                         System.out.println("Shranjevanje nepremicnine v datoteko.");
                         System.out.println("Vnesi ime datoteke za shranjevanje nepremicnine.");
                         String save = input.nextLine();
@@ -182,6 +204,7 @@ public class UporabniskiVmesnik {
                             default:
                                 System.out.println("Prislo je do napake.");
                         }
+
                         break;
                     case 'x':
                         System.out.println("Izhod iz programa.");

@@ -36,22 +36,8 @@ public class bazaNepremicnina {
         return evidencaNepremicnine;
     }
 
-    public String dodajNepremicnino(Nepremicnina nepremicnina) {
-        boolean exists = false;
-        for (Nepremicnina n : this.evidencaNepremicnine) {
-            if (n.getLastnik().equals(nepremicnina.getLastnik())) {
-                exists = true;
-                break;
-            }
-        }
-
-        if (exists == false) {
-            this.evidencaNepremicnine.add(nepremicnina);
-        } else {
-            System.out.println("The real estate has already been entered");
-        }
-
-        return "";
+    public void dodajNepremicnino(Nepremicnina nepremicnina) {
+        evidencaNepremicnine.add(nepremicnina);
     }
 
     public boolean remove(String lastnik) {

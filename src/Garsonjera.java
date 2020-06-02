@@ -38,7 +38,7 @@ public class Garsonjera extends Stanovanje {
         this.balcony = balcony;
     }
 
-    public static Garsonjera vnesiGarsonjera() throws Exception {
+    public static Garsonjera vnesiGarsonjera() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Vnos podatkov o novi garsonjeri!");
