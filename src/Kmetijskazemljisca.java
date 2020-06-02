@@ -39,30 +39,30 @@ public class Kmetijskazemljisca extends Zemljisca {
     }
 
     public static Kmetijskazemljisca vnesiKmetijskazemljisca() {
-        Scanner vhod = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Vnos podatkov o novi gozdni zemljisci!");
 
         System.out.println("Vnesite lastnika nepremicnine: ");
-        String lastnik = vhod.nextLine();
+        String lastnik = input.nextLine();
 
         System.out.println("Vnesite velikost nepremicnin (cm2): ");
-        int velikostNepremicnin = vhod.nextInt();
+        int velikostNepremicnin = input.nextInt();
 
         System.out.println("Ali gre za prodajo ali najem?: ");
-        String prodajaORoddaja = vhod.nextLine();
+        String prodajaORoddaja = input.next();
 
         System.out.println("Vnesite ceno nepremicnine (v €): ");
-        int cena = vhod.nextInt();
+        int cena = input.nextInt();
 
         System.out.println("Tip zemljisca: ");
-        String tipZemljisca = vhod.nextLine();
+        String tipZemljisca = input.next();
 
         System.out.println("Ali ima dovoljenje za obdelavo?: ");
-        boolean dovoljenjezaobdelavo = vhod.nextBoolean();
+        boolean dovoljenjezaobdelavo = input.nextBoolean();
 
         System.out.println("Ali je kmetijska zemljisca zarascena?: ");
-        boolean zarascenost = vhod.nextBoolean();
+        boolean zarascenost = input.nextBoolean();
 
         Kmetijskazemljisca novaKmetijskazemljisca = new Kmetijskazemljisca(lastnik, velikostNepremicnin, cena, prodajaORoddaja, tipZemljisca, dovoljenjezaobdelavo, zarascenost);
 

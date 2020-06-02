@@ -7,7 +7,7 @@ public class UporabniskiVmesnik {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("*** Dobrodosli v nas program ***\n");
+        System.out.println("*** Dobrodosli v nas program ***\r\n");
 
         bazaNepremicnina bazanepremicnina = new bazaNepremicnina();
 
@@ -125,11 +125,14 @@ public class UporabniskiVmesnik {
 
                                         break;
                                     default:
-                                        System.out.println("Prislo je do napake.");
+                                        System.out.println("Narrow Selection Trigger Error");
                                         break;
                                 }
+
+                                break;
+
                             default:
-                                System.out.println("Prislo je do napake.");
+                                System.out.println("Wide Selection Trigger Error");
                                 break;
                         }
 
@@ -191,18 +194,22 @@ public class UporabniskiVmesnik {
                             case 'f':
                                 System.out.println("Iskanje nepremicnine po ceni.");
                                 System.out.println("Vnesite ceno.");
+
                                 int cenanep = input.nextInt();
                                 System.out.println(bazanepremicnina.price(cenanep));
                                 break;
+
                             case 'o':
                                 System.out.println("Ce zelite nepremicnine za prodajo, vnesite: prodaja.");
                                 System.out.println("Ce zelite nepremicnine za najem, vnesite: najem.");
                                 System.out.println("Ce zelite nepremicnine ki ni na prodaj oz. ni za najem, vnesite: ni za prodajo.");
+
                                 String prodajaOddaja = input.nextLine();
                                 System.out.println(bazanepremicnina.prodajaORoddaja(prodajaOddaja));
+
                                 break;
                             default:
-                                System.out.println("Prislo je do napake.");
+                                System.out.println("End of controller error");
                         }
 
                         break;
@@ -218,8 +225,9 @@ public class UporabniskiVmesnik {
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input");
                 System.exit(0);
+
             } catch (Exception e) {
-                System.out.println("Napaka - poskusite znova!");
+                System.out.println("General Error");
                 System.exit(0);
             }
 
