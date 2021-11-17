@@ -5,11 +5,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 14pt;
+  font-size: 10px;
   font-weight: normal;
 }
 
 /* Styling */
+h1 {
+  font-size: 11.5rem;
+}
+
+p,
+q {
+  font-size: 3.2rem;
+}
+
 header > *,
 main > * {
   border: 1px solid hotpink;
@@ -20,9 +29,9 @@ main > * {
 
 main {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .unit {
-  flex: 250px;
+  flex: 1 250px;
 }
