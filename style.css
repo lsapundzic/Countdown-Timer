@@ -12,16 +12,17 @@
 /* Styling */
 header > *,
 main > * {
-  border: 1px solid green;
+  border: 1px solid hotpink;
   margin: 3px;
   text-align: center;
 }
 /* Layout */
-header {
-  display: flex;
-  flex-direction: column;
-}
 
 main {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.unit {
+  flex: 250px;
 }
