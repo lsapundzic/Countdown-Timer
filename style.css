@@ -7,6 +7,8 @@
   box-sizing: border-box;
   font-size: 10px;
   font-weight: normal;
+
+  /* Font insert */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -35,7 +37,6 @@ h2,
 
 header > *,
 main > * {
-  border: 1px solid hotpink;
   text-align: center;
   margin: 0 4vw 90px 4vw;
 }
@@ -43,9 +44,6 @@ main > * {
 /* TODO: It is questionable whether the margin should be in subelements or not */
 
 /* Layout */
-header,
-main {
-}
 
 main {
   display: flex;
@@ -54,4 +52,11 @@ main {
 
 .unit {
   flex: 1 230px;
+}
+
+/* Incomplete */
+@media screen and (max-width: 425px) {
+  div {
+    background-color: olivedrab;
+  }
 }
