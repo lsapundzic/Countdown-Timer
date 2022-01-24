@@ -54,9 +54,21 @@ main {
   flex: 1 230px;
 }
 
-/* Incomplete */
+/* Tablet Design */
+@media screen and (max-width: 752px) and (min-width: 426px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/* Mobile Phone Design */
 @media screen and (max-width: 425px) {
-  div {
-    background-color: olivedrab;
+  h1 {
+    font-size: 3rem;
+  }
+
+  p,
+  q {
+    font-size: 1.9rem;
   }
 }
