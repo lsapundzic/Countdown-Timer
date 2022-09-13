@@ -1,4 +1,4 @@
-/* Removed formatting */
+/* ==== CLEARFIX ==== */
 
 * {
   border: 0;
@@ -12,7 +12,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* Styling */
+/* ==== STYLING ==== */
 h1 {
   font-size: 10rem;
 }
@@ -43,7 +43,7 @@ main > * {
 
 /* TODO: It is questionable whether the margin should be in subelements or not */
 
-/* Layout */
+/* ==== LAYOUT ==== */
 
 main {
   display: flex;
@@ -54,7 +54,7 @@ main {
   flex: 1 230px;
 }
 
-/* Tablet Design */
+/* ==== RESPONSIVE DESIGN ==== */
 @media screen and (max-width: 752px) and (min-width: 426px) {
   h1 {
     font-size: 5rem;
