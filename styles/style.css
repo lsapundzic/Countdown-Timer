@@ -23,12 +23,16 @@ h2 {
   font-size: 6rem;
 }
 
-p {
+/* The introductory paragraph */
+p,
+em,
+s {
   font-size: 2.2rem;
   font-weight: 100;
   font-style: italic;
 }
 
+/* The body */
 .task,
 .counter {
   font-size: 6rem;
@@ -39,3 +43,5 @@ p {
 .unit {
   background-color: #3672ff;
 }
+
+/* Footer */
