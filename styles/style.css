@@ -33,15 +33,15 @@ s {
 }
 
 /* The body */
+.unit {
+  background-color: #3672ff;
+}
+
 .task,
 .counter {
   font-size: 6rem;
   color: whitesmoke;
   height: 190px;
-}
-
-.unit {
-  background-color: #3672ff;
 }
 
 /* Footer */
