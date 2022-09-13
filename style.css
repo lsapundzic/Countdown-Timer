@@ -53,7 +53,7 @@ main {
   flex: 1 230px;
 }
 
-/* ==== RESPONSIVE DESIGN ==== */
+/* ==== RESPONSIVE DESIGN */
 @media screen and (max-width: 752px) and (min-width: 426px) {
   h1 {
     font-size: 5rem;
