@@ -1,11 +1,13 @@
 /* ==== RESPONSIVE DESIGN */
+
+/* For medium screens */
 @media screen and (max-width: 752px) and (min-width: 426px) {
   h1 {
     font-size: 5rem;
   }
 }
 
-/* Mobile Phone Design */
+/* For mobile phones */
 @media screen and (max-width: 425px) {
   h1 {
     font-size: 3rem;
