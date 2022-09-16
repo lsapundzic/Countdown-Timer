@@ -6,10 +6,6 @@ main {
   margin: 0 3vw 50px 3vw;
 }
 
-.box {
-  border: 1px solid black;
-}
-
 .number {
   text-align: center;
   height: 70%;
