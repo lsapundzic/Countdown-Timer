@@ -1,0 +1,13 @@
+/* TABLET */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2,
+  p,
+  em,
+  b {
+    font-size: 1.8rem;
+  }
+}
