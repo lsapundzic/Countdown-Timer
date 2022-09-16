@@ -41,7 +41,7 @@ b {
 }
 
 .number {
-  font-size: 7rem;
+  font-size: 19rem;
 }
 
 .task {
@@ -50,7 +50,6 @@ b {
 
 .number,
 .task {
-  font-size: 4rem;
   color: whitesmoke;
   height: 190px;
 }
