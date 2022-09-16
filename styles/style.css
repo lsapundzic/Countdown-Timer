@@ -27,7 +27,7 @@ h2 {
 /* The introductory paragraph */
 p,
 em,
-s {
+b {
   font-size: 2.2rem;
   font-weight: 100;
   font-style: italic;
@@ -40,7 +40,7 @@ s {
 
 .task,
 .counter {
-  font-size: 6rem;
+  font-size: 4rem;
   color: whitesmoke;
   height: 190px;
 }
