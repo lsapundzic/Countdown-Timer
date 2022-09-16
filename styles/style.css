@@ -34,12 +34,12 @@ b {
 }
 
 /* The body */
-.unit {
+.box {
   background-color: #3672ff;
 }
 
 .task,
-.counter {
+.number {
   font-size: 4rem;
   color: whitesmoke;
   height: 190px;

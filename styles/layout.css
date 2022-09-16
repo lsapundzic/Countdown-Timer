@@ -5,12 +5,12 @@ header > * {
   margin: 0 3vw 50px 3vw;
 }
 
-.unit {
+.box {
   margin: 0 0 3vw 3vw;
   height: 250px;
 }
 
-.counter {
+.number {
   text-align: center;
   height: 70%;
 }
@@ -25,6 +25,6 @@ header > * {
   flex-flow: row wrap;
 }
 
-.unit {
+.box {
   flex: 1 200px;
 }
