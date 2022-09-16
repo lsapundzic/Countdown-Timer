@@ -1,5 +1,6 @@
 /* ==== RESPONSIVE DESIGN */
 
+/* LAPTOP */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   h1 {
     font-size: 5rem;
@@ -13,7 +14,7 @@
   }
 }
 
-/* For medium screens */
+/* TABLET */
 @media screen and (min-width: 426px) and (max-width: 768px) {
   h1 {
     font-size: 4rem;
@@ -27,8 +28,8 @@
   }
 }
 
-/* For mobile phones */
-@media screen and (min-width: 376px) and (max-width: 426px) {
+/* MOBILE - L */
+@media screen and (min-width: 376px) and (max-width: 425px) {
   h1 {
     font-size: 3rem;
   }
@@ -38,5 +39,19 @@
   em,
   b {
     font-size: 1.6rem;
+  }
+}
+
+/* MOBILE - M */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+
+/* MOBILE - s */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2.8rem;
   }
 }
