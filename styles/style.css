@@ -37,6 +37,7 @@ b {
 .box {
   background-color: #3672ff;
   border: 1px solid black;
+  border-radius: 8px;
 }
 
 .task,
