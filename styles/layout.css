@@ -21,13 +21,4 @@ header > * {
 }
 /* === === FLEX === === */
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.box {
-  flex: 1 275px;
-}
-
 /* === === GRID === */
