@@ -6,10 +6,6 @@ main {
   margin: 0 3vw 50px 3vw;
 }
 
-.box {
-  border: 1px solid black;
-}
-
 .number {
   text-align: center;
   height: 70%;
@@ -27,4 +23,5 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-auto-rows: minmax(250px, auto);
   gap: 2%;
+  /* TODO: Improve gap? */
 }
