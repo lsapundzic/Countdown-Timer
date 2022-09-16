@@ -36,6 +36,7 @@ b {
 /* The body */
 .box {
   background-color: #3672ff;
+  border: 1px solid black;
 }
 
 .task,
