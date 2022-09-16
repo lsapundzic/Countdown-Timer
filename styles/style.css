@@ -40,8 +40,16 @@ b {
   border-radius: 8px;
 }
 
-.task,
 .number {
+  font-size: 7rem;
+}
+
+.task {
+  font-size: 4rem;
+}
+
+.number,
+.task {
   font-size: 4rem;
   color: whitesmoke;
   height: 190px;
