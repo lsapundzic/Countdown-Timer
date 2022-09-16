@@ -1,4 +1,4 @@
-/* Centering */
+/* === === CENTERING === === */
 
 header > * {
   text-align: center;
@@ -18,7 +18,7 @@ header > * {
 .task {
   text-align: center;
 }
-/* Flex */
+/* === === FLEX === === */
 
 .flex-container {
   display: flex;
@@ -26,5 +26,5 @@ header > * {
 }
 
 .box {
-  flex: 1 200px;
+  flex: 1 170px;
 }
