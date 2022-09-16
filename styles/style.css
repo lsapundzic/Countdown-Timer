@@ -32,6 +32,10 @@ b {
   font-style: italic;
 }
 
+b {
+  font-weight: bold;
+}
+
 /* The body */
 .box {
   background-color: #3672ff;
