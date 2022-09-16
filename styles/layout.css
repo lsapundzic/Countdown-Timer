@@ -1,7 +1,6 @@
 /* Centering */
 
-header > *,
-main > * {
+header > * {
   text-align: center;
   margin: 0 3vw 50px 3vw;
 }
