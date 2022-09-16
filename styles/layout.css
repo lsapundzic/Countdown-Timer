@@ -17,6 +17,7 @@ header > * {
 
 .task {
   text-align: center;
+  height: 30%;
 }
 /* === === FLEX === === */
 
@@ -28,3 +29,5 @@ header > * {
 .box {
   flex: 1 275px;
 }
+
+/* === === GRID === */
