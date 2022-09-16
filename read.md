@@ -7,3 +7,4 @@ This is a static website where my friends can find out how many more things I ne
 - [] Figure out what is centering the number div.
 - [] Improve thesis status style.
 - [] Responsive design is lacking.
+- [] Silly error at 425px on CSS responsive design.

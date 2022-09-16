@@ -15,7 +15,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   h1 {
     font-size: 4rem;
   }
