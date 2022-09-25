@@ -37,9 +37,24 @@ b {
 
 /* The body */
 .box {
-  background-color: #3672ff;
-  border: 1px solid black;
   border-radius: 8px;
+}
+
+/* Individual colors for each box, spring theme */
+.box:nth-child(1) {
+  background-color: #5f0f40;
+}
+
+.box:nth-child(2) {
+  background-color: #92031e;
+}
+
+.box:nth-child(3) {
+  background-color: #fb8b24;
+}
+
+.box:nth-child(4) {
+  background-color: #e36414;
 }
 
 .number {
