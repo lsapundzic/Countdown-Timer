@@ -84,3 +84,15 @@ time {
 li {
   list-style: disc;
 }
+
+li:nth-child(1) {
+  opacity: 25%;
+}
+
+li:nth-child(2) {
+  opacity: 50%;
+}
+
+li:nth-child(3) {
+  opacity: 75%;
+}
