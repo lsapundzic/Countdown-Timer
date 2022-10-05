@@ -38,8 +38,7 @@ time {
 
 /* The body */
 .box,
-.log,
-.thesis {
+.descriptive {
   border-radius: 8px;
 }
 
@@ -76,8 +75,7 @@ time {
 }
 
 /* Log content styling */
-.log,
-.thesis {
+.descriptive {
   background-color: #0f4c5c;
   color: whitesmoke;
 }

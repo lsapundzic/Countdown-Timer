@@ -16,14 +16,12 @@ main {
   height: 30%;
 }
 
-.log,
-.thesis {
+.descriptive {
   text-align: left;
   margin-bottom: 3vw;
 }
 
-.log *,
-.thesis * {
+.descriptive * {
   padding: 15px;
 }
 
