@@ -16,6 +16,10 @@ main {
   height: 30%;
 }
 
+.descriptive > p:nth-child(1) {
+  text-align: center;
+}
+
 .descriptive {
   text-align: left;
   margin-bottom: 3vw;
