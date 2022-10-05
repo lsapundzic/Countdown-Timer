@@ -21,9 +21,12 @@ main {
   margin-bottom: 3vw;
 }
 
+.log * {
+  padding: 15px;
+}
+
 li {
   list-style-position: inside;
-  padding: 15px;
 }
 
 /* === === GRID === */
