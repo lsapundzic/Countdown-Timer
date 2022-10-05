@@ -85,14 +85,14 @@ li {
   list-style: disc;
 }
 
-li:nth-child(1) {
+li:nth-child(4) {
   opacity: 25%;
 }
 
-li:nth-child(2) {
+li:nth-child(3) {
   opacity: 50%;
 }
 
-li:nth-child(3) {
+li:nth-child(2) {
   opacity: 75%;
 }
