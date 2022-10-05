@@ -1,5 +1,4 @@
 /* ==== CLEARFIX ==== */
-
 * {
   font-size: 10px;
   font-weight: normal;
@@ -21,6 +20,7 @@ h2 {
 p,
 em,
 b,
+button,
 time,
 li {
   font-size: 2.2rem;
@@ -34,7 +34,8 @@ time {
 
 /* The body */
 .box,
-.descriptive {
+.descriptive,
+button {
   border-radius: 8px;
 }
 

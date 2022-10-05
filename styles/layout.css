@@ -13,8 +13,9 @@ main {
 }
 
 button {
-  font-size: inherit;
+  margin-bottom: 3vw;
 }
+
 .number {
   text-align: center;
   height: 70%;
@@ -34,7 +35,8 @@ button {
   margin-bottom: 3vw;
 }
 
-.descriptive * {
+.descriptive *,
+button {
   padding: 15px;
 }
 
