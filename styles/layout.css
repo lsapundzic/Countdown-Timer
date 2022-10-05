@@ -15,7 +15,16 @@ main {
   text-align: center;
   height: 30%;
 }
-/* === === FLEX === === */
+
+.log {
+  text-align: left;
+  margin-bottom: 3vw;
+}
+
+li {
+  list-style-position: inside;
+  padding: 15px;
+}
 
 /* === === GRID === */
 .grid-container {
