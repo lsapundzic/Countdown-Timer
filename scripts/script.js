@@ -1,5 +1,6 @@
 const button = document.querySelector("button");
 let colorState = true;
+button.innerText = "Dark Theme";
 
 button.addEventListener("click", () => {
   if (colorState === true) {
