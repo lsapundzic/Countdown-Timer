@@ -37,6 +37,7 @@ time {
 .descriptive,
 button {
   border-radius: 8px;
+  border: 1px solid black;
 }
 
 /* Individual colors for each box, spring theme */
