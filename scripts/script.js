@@ -1,7 +1,7 @@
 const button = document.querySelector("button");
 
 // Default states
-let colorState = true;
+let theme = true;
 button.innerText = "Dark Theme";
 
 // Colors
@@ -10,14 +10,14 @@ let whitesmoke = "rgb(245,245,245)";
 let white = "rgb(255,255,255)";
 
 button.addEventListener("click", () => {
-  if (colorState === true) {
+  if (theme === true) {
     // Page color
     document.body.style.backgroundColor = black;
     document.body.style.color = whitesmoke;
 
     // Button text
     button.innerText = "Light Theme";
-    colorState = false;
+    theme = false;
   } else {
     // Page color
     document.body.style.backgroundColor = white;
@@ -25,6 +25,6 @@ button.addEventListener("click", () => {
 
     // Button text
     button.innerText = "Dark Theme";
-    colorState = true;
+    theme = true;
   }
 });
