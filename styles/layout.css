@@ -1,4 +1,10 @@
-/* === === CENTERING === === */
+/* ==== CLEARFIX ==== */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 header > *,
 main {
@@ -6,6 +12,9 @@ main {
   margin: 0 3vw 50px 3vw;
 }
 
+button {
+  font-size: inherit;
+}
 .number {
   text-align: center;
   height: 70%;
