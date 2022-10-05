@@ -64,6 +64,10 @@ time {
   color: whitesmoke;
 }
 
+li {
+  list-style: disc;
+}
+
 /* Styling inside of each box */
 .number {
   font-size: 19rem;
