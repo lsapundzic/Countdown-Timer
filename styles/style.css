@@ -64,10 +64,6 @@ time {
   color: whitesmoke;
 }
 
-li {
-  list-style: disc;
-}
-
 /* Styling inside of each box */
 .number {
   font-size: 19rem;
@@ -81,4 +77,10 @@ li {
 .task {
   color: whitesmoke;
   height: 190px;
+}
+
+/* Log content styling */
+
+li {
+  list-style: disc;
 }
