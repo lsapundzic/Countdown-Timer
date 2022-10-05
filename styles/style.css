@@ -38,7 +38,8 @@ time {
 
 /* The body */
 .box,
-.log {
+.log,
+.thesis {
   border-radius: 8px;
 }
 
@@ -59,11 +60,6 @@ time {
   background-color: #e36414;
 }
 
-.log {
-  background-color: #0f4c5c;
-  color: whitesmoke;
-}
-
 /* Styling inside of each box */
 .number {
   font-size: 19rem;
@@ -80,6 +76,11 @@ time {
 }
 
 /* Log content styling */
+.log,
+.thesis {
+  background-color: #0f4c5c;
+  color: whitesmoke;
+}
 
 li {
   list-style: disc;
