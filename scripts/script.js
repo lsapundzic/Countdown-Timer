@@ -1,4 +1,6 @@
-function toggle() {
-  let element = document.body;
-  element.classList.toggle("dark-mode");
-}
+const button = document.querySelector("button");
+
+button.addEventListener("click", function () {
+  document.body.style.backgroundColor = "rgb(0,0,0)";
+  document.body.style.color = "rgb(245,245,245)";
+});
