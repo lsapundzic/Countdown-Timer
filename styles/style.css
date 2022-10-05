@@ -12,8 +12,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* ==== STYLING ==== */
-
 /* Header content */
 h1 {
   font-size: 8rem;
@@ -57,6 +55,7 @@ b {
   background-color: #e36414;
 }
 
+/* Styling inside of each box */
 .number {
   font-size: 19rem;
 }
@@ -70,5 +69,3 @@ b {
   color: whitesmoke;
   height: 190px;
 }
-
-/* Footer */
