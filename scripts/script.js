@@ -1,3 +1,4 @@
+// Select the button from HTML
 const button = document.querySelector("button");
 
 // Default states
@@ -13,6 +14,8 @@ button.addEventListener("click", () => {
   if (theme === true) {
     // Page color
     document.body.style.backgroundColor = black;
+
+    // Text color
     document.body.style.color = whitesmoke;
 
     // Button text
@@ -21,6 +24,8 @@ button.addEventListener("click", () => {
   } else {
     // Page color
     document.body.style.backgroundColor = white;
+
+    // Text color
     document.body.style.color = black;
 
     // Button text
