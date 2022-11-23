@@ -41,19 +41,19 @@ button {
 
 /* Individual colors for each box, spring theme */
 .box:nth-child(1) {
-  background-color: #5f0f40;
+  background-color: #00fff6;
 }
 
 .box:nth-child(2) {
-  background-color: #92031e;
+  background-color: #00e7ff;
 }
 
 .box:nth-child(3) {
-  background-color: #fb8b24;
+  background-color: #009eff;
 }
 
 .box:nth-child(4) {
-  background-color: #e36414;
+  background-color: #0014ff;
 }
 
 /* Styling inside of each box */
